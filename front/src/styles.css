@@ -1,0 +1,21 @@
+html {
+    background: url(assets/background-mc.jpg)  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  .content {
+    padding: 20px;
+    width: 600px;
+    margin-top: 30%;
+    background-color: gainsboro;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 0 10px black;
+    color: black;
+}

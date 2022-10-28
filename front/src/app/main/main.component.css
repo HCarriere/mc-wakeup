@@ -1,0 +1,11 @@
+button.wakeup {
+    background-color: rgb(193, 28, 28);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.ping {
+    
+}

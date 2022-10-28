@@ -1,0 +1,17 @@
+<div class="content">
+    <h1>
+        Ce bouton allume le serveur minecraft.
+    </h1>
+    <h2 *ngIf="serverStatus != 'unknown'">
+        Statut du serveur : {{serverStatus}}
+        <button class="ping" (click)="pingHost()">Refresh</button>
+    </h2>
+    <p>
+        Le serveur coûte <strong>0,11 €</strong> par heures d'allumage. 
+        <br/>
+        Il coûterait 81 € / mois si il était allumé 24h/24 !
+        <br/>
+        Utilisez ce bouton avec parcimonie :)
+    </p>
+    <button class="wakeup" (click)="wakeUp()">Réveiller le serveur</button>
+</div>
